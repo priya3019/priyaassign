@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "priyappatil/maven2"
+    imagename = "priyappatil/maven1"
     registryCredential = 'priyappatil-dockerhub'
     dockerImage = ''
   }

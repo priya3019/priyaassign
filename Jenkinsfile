@@ -1,7 +1,7 @@
 pipeline {
   environment {
     imagename = "priyappatil/maven1"
-    registryCredential = 'priyappatil-dockerhub-token'
+    registryCredential = 'priyappatil-dockerhub'
     dockerImage = ''
   }
   agent any

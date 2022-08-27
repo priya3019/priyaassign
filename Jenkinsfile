@@ -33,7 +33,7 @@ pipeline {
     stage('Docker Run') {
      steps{
          script {
-            dockerImage.run("-p 80605:8080 --rm --name priya123")
+            dockerImage.run("-p 8060:8080 --rm --name priya123")
          }
      }
     }
